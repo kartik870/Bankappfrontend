@@ -1,0 +1,99 @@
+/* Admin.css */
+
+.container {
+    margin-top: 40px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.custom-table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.custom-table th, .custom-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+.custom-table th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.custom-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+.custom-table tr:hover {
+    background-color: #ddd;
+}
+
+.custom-select {
+    border: 1px solid #ced4da;
+    padding: .375rem 1.75rem .375rem .75rem;
+    border-radius: .25rem;
+    background-color: #f8f9fa;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.button-group button {
+    width: 48%;
+}
+
+
+
+/* Admin.css */
+
+/* Center the modal dialog horizontally and vertically *//* Center the modal dialog */
+.custom-modal .modal-dialog {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: calc(100% - 1rem);
+}
+
+/* Customize the modal content */
+.custom-modal .modal-content {
+    border-radius: 0.5rem; /* Adjust border radius for a rounded look */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add some shadow */
+}
+
+/* Customize the modal header */
+.custom-modal .modal-header {
+    border-bottom: none; /* Remove the border at the bottom of the header */
+    text-align: center; /* Center the text in the header */
+}
+
+.custom-modal .modal-title {
+    color: green; /* Title color */
+}
+
+/* Center the content in the modal body */
+.custom-modal .modal-body {
+    text-align: center; /* Center the content in the body */
+}
+
+/* Style the button group */
+.custom-modal .button-group {
+    display: flex;
+    justify-content: center; /* Center the buttons */
+    gap: 1rem; /* Space between buttons */
+    margin-top: 1rem; /* Space above the button group */
+}
+
+/* Style the select input */
+.custom-modal .custom-select {
+    max-width: 200px; /* Adjust the width of the select input */
+    margin: 0 auto; /* Center the select input */
+}
